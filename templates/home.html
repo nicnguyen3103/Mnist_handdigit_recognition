@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div>
+    <img class="mb-4" src="static/images/coderschool-logo.png" alt="">
+    <h1 class="h3 mb-3 font-weight-normal">Please draw a number</h1>
+
+    <canvas id='canvas' width="400" height="400"></canvas>
+
+    <h1 class="h3 mb-3 font-weight-normal" id="result">Predictions: </h1>
+
+    <button id="myButton" class="btn btn-lg btn-primary btn-block" type="submit">Predict</button>
+    <button id="clearButton" class="btn btn-lg btn-success btn-block" type="submit">Clear</button>
+
+    <p class="mt-5 mb-3 text-muted">&copy; Mariana 2019</p>
+</div>
+
+{% endblock %}
